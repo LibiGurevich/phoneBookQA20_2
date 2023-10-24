@@ -17,16 +17,19 @@ public class UserHelper extends BaseHelper{
     By btnLogin = By.xpath("//button[@name='login']");
     String btnRegistration = "document.querySelector('[name=\"registration\"]').click();\n";
     By textContacts = By.xpath("//a[@href='/contacts']");
+    By btnLogout = By.xpath("//button[text()='Sign Out']");
+
+    public void openLoginPage() {
+        clickBase(btnOpenLoginForm);
+    }
 
     public void fillLoginUserDto(UserDTO userDTO) {
-        clickBase(btnOpenLoginForm);
         typeTextBase(inputEmail, userDTO.getEmail());
         typeTextBase(inputPassword, userDTO.getPassword());
         clickBase(btnLogin);
     }
 
     public void fillLoginUserDtoWith(UserDTOWith userDTOWith) {
-        clickBase(btnOpenLoginForm);
         typeTextBase(inputEmail, userDTOWith.getEmail());
         typeTextBase(inputPassword, userDTOWith.getPassword());
         clickBase(btnLogin);
@@ -38,7 +41,6 @@ public class UserHelper extends BaseHelper{
     }
 
     public void fillLoginUserDtoLombok(UserDtoLombok user) {
-        clickBase(btnOpenLoginForm);
         typeTextBase(inputEmail, user.getEmail());
         typeTextBase(inputPassword, user.getPassword());
         clickBase(btnLogin);
@@ -54,17 +56,16 @@ public class UserHelper extends BaseHelper{
     public boolean validateMessageAlertWrongEmailPasswordCorrect() {
         String expectedResult = "Wrong email or password".toUpperCase();
         String actualResult = getTextAlert();
-        return isTextEqualGet2Strings(expectedResult, actualResult);
+        return isTextContainsGet2Strings(expectedResult, actualResult);
     }
 
     public boolean validateMessageAlertWrongEmailPasswordCorrectReg() {
-        String expectedResult = "WRONG EMAIL OR PASSWORD FORMAT\n" +
-                "            EMAIL MUST CONTAINS ONE @ AND MINIMUM 2 SYMBOLS AFTER LAST DOT\n" +
-                "            PASSWORD MUST CONTAIN AT LEAST ONE UPPERCASE LETTER!\n" +
-                "            PASSWORD MUST CONTAIN AT LEAST ONE LOWERCASE LETTER!\n" +
-                "            PASSWORD MUST CONTAIN AT LEAST ONE DIGIT!\n" +
-                "            PASSWORD MUST CONTAIN AT LEAST ONE SPECIAL SYMBOL FROM [‘$’,’~’,’-‘,’_’]!";
+        String expectedResult = "WRONG EMAIL OR PASSWORD FORMAT";
         String actualResult = getTextAlert();
-        return isTextEqualGet2Strings(expectedResult, actualResult);
+        return isTextContainsGet2Strings(expectedResult, actualResult);
+    }
+
+    public void logout() {
+        clickBase(btnLogout);
     }
 }

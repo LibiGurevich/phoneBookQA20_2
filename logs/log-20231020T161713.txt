@@ -1,0 +1,10 @@
+2023-10-20 16:17:35,051 INFO m.TestNGListener [TestNGListener.java:50] start test - onstart - : Gradle test
+2023-10-20 16:17:35,117 INFO t.BaseTests [BaseTests.java:30] -----------------------------------------------------------------------------------
+2023-10-20 16:17:35,117 INFO t.BaseTests [BaseTests.java:31] started method: positiveLoginUserDtoWith
+2023-10-20 16:17:35,118 INFO t.BaseTests [BaseTests.java:32] started method with params: []
+2023-10-20 16:17:35,128 INFO m.TestNGListener [TestNGListener.java:15] started test: positiveLoginUserDtoWith
+2023-10-20 16:17:35,129 INFO m.TestNGListener [TestNGListener.java:33] test skipped: positiveLoginUserDtoWith
+2023-10-20 16:17:35,131 INFO t.BaseTests [BaseTests.java:38] stopped method: positiveLoginUserDtoWith
+2023-10-20 16:17:35,131 INFO t.BaseTests [BaseTests.java:39] stopped method with params: []
+2023-10-20 16:17:35,137 INFO m.TestNGListener [TestNGListener.java:56] all code executed: passed tests: [ResultMap map=[]]
+2023-10-20 16:17:35,138 INFO m.TestNGListener [TestNGListener.java:57] all code executed: failed tests: [ResultMap map=[]]
