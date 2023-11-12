@@ -1,0 +1,68 @@
+2023-10-20 16:37:26,637 INFO m.ApplicationManager [ApplicationManager.java:23] open page: https://telranedu.web.app/home
+2023-10-20 16:37:26,811 INFO m.TestNGListener [TestNGListener.java:50] start test - onstart - : Gradle test
+2023-10-20 16:37:26,846 INFO m.WDListener [WDListener.java:49] navigate to: https://telranedu.web.app/home
+2023-10-20 16:37:26,961 INFO m.WDListener [WDListener.java:55] navigate to: https://telranedu.web.app/home
+2023-10-20 16:37:27,101 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[@href='/login']
+2023-10-20 16:37:27,102 INFO m.WDListener [WDListener.java:92] before find element: By.xpath: //a[@href='/login']
+2023-10-20 16:37:27,146 INFO m.WDListener [WDListener.java:98] element found success: By.xpath: //a[@href='/login']
+2023-10-20 16:37:27,158 INFO m.WDListener [WDListener.java:104] start method click
+2023-10-20 16:37:27,253 INFO m.WDListener [WDListener.java:110] done method click
+2023-10-20 16:37:27,285 INFO t.BaseTests [BaseTests.java:30] ----------------------------------------------------------------------------------
+2023-10-20 16:37:27,286 INFO t.BaseTests [BaseTests.java:31] started method: negativeWrongPasswordNoDigits
+2023-10-20 16:37:27,286 INFO t.BaseTests [BaseTests.java:32] started method with params: []
+2023-10-20 16:37:27,414 INFO m.TestNGListener [TestNGListener.java:15] started test: negativeWrongPasswordNoDigits
+2023-10-20 16:37:27,418 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@name='email']
+2023-10-20 16:37:27,419 INFO m.WDListener [WDListener.java:92] before find element: By.xpath: //input[@name='email']
+2023-10-20 16:37:27,445 INFO m.WDListener [WDListener.java:98] element found success: By.xpath: //input[@name='email']
+2023-10-20 16:37:27,447 INFO m.WDListener [WDListener.java:104] start method click
+2023-10-20 16:37:27,531 INFO m.WDListener [WDListener.java:110] done method click
+2023-10-20 16:37:27,732 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@name='password']
+2023-10-20 16:37:27,733 INFO m.WDListener [WDListener.java:92] before find element: By.xpath: //input[@name='password']
+2023-10-20 16:37:27,769 INFO m.WDListener [WDListener.java:98] element found success: By.xpath: //input[@name='password']
+2023-10-20 16:37:27,771 INFO m.WDListener [WDListener.java:104] start method click
+2023-10-20 16:37:27,848 INFO m.WDListener [WDListener.java:110] done method click
+2023-10-20 16:37:27,975 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@name='login']
+2023-10-20 16:37:27,976 INFO m.WDListener [WDListener.java:92] before find element: By.xpath: //button[@name='login']
+2023-10-20 16:37:27,996 INFO m.WDListener [WDListener.java:98] element found success: By.xpath: //button[@name='login']
+2023-10-20 16:37:27,997 INFO m.WDListener [WDListener.java:104] start method click
+2023-10-20 16:37:28,080 INFO m.WDListener [WDListener.java:110] done method click
+2023-10-20 16:37:29,172 INFO m.TestNGListener [TestNGListener.java:21] test success: negativeWrongPasswordNoDigits
+2023-10-20 16:37:29,173 INFO t.BaseTests [BaseTests.java:37] stopped method: negativeWrongPasswordNoDigits
+2023-10-20 16:37:29,173 INFO t.BaseTests [BaseTests.java:38] stopped method with params: []
+2023-10-20 16:37:29,181 INFO t.BaseTests [BaseTests.java:30] ----------------------------------------------------------------------------------
+2023-10-20 16:37:29,181 INFO t.BaseTests [BaseTests.java:31] started method: negativeWrongPasswordNoLetters
+2023-10-20 16:37:29,182 INFO t.BaseTests [BaseTests.java:32] started method with params: []
+2023-10-20 16:37:29,197 INFO m.TestNGListener [TestNGListener.java:15] started test: negativeWrongPasswordNoLetters
+2023-10-20 16:37:29,197 INFO m.TestNGListener [TestNGListener.java:33] test skipped: negativeWrongPasswordNoLetters
+2023-10-20 16:37:29,199 INFO t.BaseTests [BaseTests.java:37] stopped method: negativeWrongPasswordNoLetters
+2023-10-20 16:37:29,200 INFO t.BaseTests [BaseTests.java:38] stopped method with params: []
+2023-10-20 16:37:29,208 INFO t.BaseTests [BaseTests.java:30] ----------------------------------------------------------------------------------
+2023-10-20 16:37:29,210 INFO t.BaseTests [BaseTests.java:31] started method: negativeWrongPasswordWrongSymbol
+2023-10-20 16:37:29,211 INFO t.BaseTests [BaseTests.java:32] started method with params: []
+2023-10-20 16:37:29,214 INFO m.TestNGListener [TestNGListener.java:15] started test: negativeWrongPasswordWrongSymbol
+2023-10-20 16:37:29,216 INFO m.TestNGListener [TestNGListener.java:33] test skipped: negativeWrongPasswordWrongSymbol
+2023-10-20 16:37:29,218 INFO t.BaseTests [BaseTests.java:37] stopped method: negativeWrongPasswordWrongSymbol
+2023-10-20 16:37:29,218 INFO t.BaseTests [BaseTests.java:38] stopped method with params: []
+2023-10-20 16:37:29,221 INFO t.BaseTests [BaseTests.java:30] ----------------------------------------------------------------------------------
+2023-10-20 16:37:29,223 INFO t.BaseTests [BaseTests.java:31] started method: positiveLoginUserDto
+2023-10-20 16:37:29,224 INFO t.BaseTests [BaseTests.java:32] started method with params: []
+2023-10-20 16:37:29,227 INFO m.TestNGListener [TestNGListener.java:15] started test: positiveLoginUserDto
+2023-10-20 16:37:29,228 INFO m.TestNGListener [TestNGListener.java:33] test skipped: positiveLoginUserDto
+2023-10-20 16:37:29,229 INFO t.BaseTests [BaseTests.java:37] stopped method: positiveLoginUserDto
+2023-10-20 16:37:29,230 INFO t.BaseTests [BaseTests.java:38] stopped method with params: []
+2023-10-20 16:37:29,231 INFO t.BaseTests [BaseTests.java:30] ----------------------------------------------------------------------------------
+2023-10-20 16:37:29,231 INFO t.BaseTests [BaseTests.java:31] started method: positiveLoginUserDtoLombok
+2023-10-20 16:37:29,232 INFO t.BaseTests [BaseTests.java:32] started method with params: []
+2023-10-20 16:37:29,233 INFO m.TestNGListener [TestNGListener.java:15] started test: positiveLoginUserDtoLombok
+2023-10-20 16:37:29,234 INFO m.TestNGListener [TestNGListener.java:33] test skipped: positiveLoginUserDtoLombok
+2023-10-20 16:37:29,235 INFO t.BaseTests [BaseTests.java:37] stopped method: positiveLoginUserDtoLombok
+2023-10-20 16:37:29,235 INFO t.BaseTests [BaseTests.java:38] stopped method with params: []
+2023-10-20 16:37:29,242 INFO t.BaseTests [BaseTests.java:30] ----------------------------------------------------------------------------------
+2023-10-20 16:37:29,242 INFO t.BaseTests [BaseTests.java:31] started method: positiveLoginUserDtoWith
+2023-10-20 16:37:29,243 INFO t.BaseTests [BaseTests.java:32] started method with params: []
+2023-10-20 16:37:29,244 INFO m.TestNGListener [TestNGListener.java:15] started test: positiveLoginUserDtoWith
+2023-10-20 16:37:29,244 INFO m.TestNGListener [TestNGListener.java:33] test skipped: positiveLoginUserDtoWith
+2023-10-20 16:37:29,246 INFO t.BaseTests [BaseTests.java:37] stopped method: positiveLoginUserDtoWith
+2023-10-20 16:37:29,247 INFO t.BaseTests [BaseTests.java:38] stopped method with params: []
+2023-10-20 16:37:29,249 INFO m.TestNGListener [TestNGListener.java:56] all code executed: passed tests: [ResultMap map=[[TestResult name=negativeWrongPasswordNoDigits status=SUCCESS method=LoginTests.negativeWrongPasswordNoDigits()[pri:0, instance:tests.LoginTests@156b88f5] output={null}]]]
+2023-10-20 16:37:29,249 INFO m.TestNGListener [TestNGListener.java:57] all code executed: failed tests: [ResultMap map=[]]

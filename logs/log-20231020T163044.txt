@@ -1,0 +1,86 @@
+2023-10-20 16:30:48,286 INFO m.ApplicationManager [ApplicationManager.java:23] open page: https://telranedu.web.app/home
+2023-10-20 16:30:49,059 INFO m.TestNGListener [TestNGListener.java:50] start test - onstart - : Gradle test
+2023-10-20 16:30:49,092 INFO m.WDListener [WDListener.java:49] navigate to: https://telranedu.web.app/home
+2023-10-20 16:30:49,170 INFO m.WDListener [WDListener.java:55] navigate to: https://telranedu.web.app/home
+2023-10-20 16:30:49,331 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[@href='/login']
+2023-10-20 16:30:49,333 INFO m.WDListener [WDListener.java:92] before find element: By.xpath: //a[@href='/login']
+2023-10-20 16:30:49,386 INFO m.WDListener [WDListener.java:98] element found success: By.xpath: //a[@href='/login']
+2023-10-20 16:30:49,401 INFO m.WDListener [WDListener.java:104] start method click
+2023-10-20 16:30:49,509 INFO m.WDListener [WDListener.java:110] done method click
+2023-10-20 16:30:49,538 INFO t.BaseTests [BaseTests.java:30] ----------------------------------------------------------------------------------
+2023-10-20 16:30:49,539 INFO t.BaseTests [BaseTests.java:31] started method: negativeWrongPasswordNoDigits
+2023-10-20 16:30:49,540 INFO t.BaseTests [BaseTests.java:32] started method with params: []
+2023-10-20 16:30:49,715 INFO m.TestNGListener [TestNGListener.java:15] started test: negativeWrongPasswordNoDigits
+2023-10-20 16:30:49,721 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@name='email']
+2023-10-20 16:30:49,722 INFO m.WDListener [WDListener.java:92] before find element: By.xpath: //input[@name='email']
+2023-10-20 16:30:49,772 INFO m.WDListener [WDListener.java:98] element found success: By.xpath: //input[@name='email']
+2023-10-20 16:30:49,773 INFO m.WDListener [WDListener.java:104] start method click
+2023-10-20 16:30:49,915 INFO m.WDListener [WDListener.java:110] done method click
+2023-10-20 16:30:50,090 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@name='password']
+2023-10-20 16:30:50,092 INFO m.WDListener [WDListener.java:92] before find element: By.xpath: //input[@name='password']
+2023-10-20 16:30:50,124 INFO m.WDListener [WDListener.java:98] element found success: By.xpath: //input[@name='password']
+2023-10-20 16:30:50,125 INFO m.WDListener [WDListener.java:104] start method click
+2023-10-20 16:30:50,219 INFO m.WDListener [WDListener.java:110] done method click
+2023-10-20 16:30:50,352 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@name='login']
+2023-10-20 16:30:50,352 INFO m.WDListener [WDListener.java:92] before find element: By.xpath: //button[@name='login']
+2023-10-20 16:30:50,372 INFO m.WDListener [WDListener.java:98] element found success: By.xpath: //button[@name='login']
+2023-10-20 16:30:50,373 INFO m.WDListener [WDListener.java:104] start method click
+2023-10-20 16:30:50,443 INFO m.WDListener [WDListener.java:110] done method click
+2023-10-20 16:30:51,518 INFO m.TestNGListener [TestNGListener.java:21] test success: negativeWrongPasswordNoDigits
+2023-10-20 16:30:51,521 INFO t.BaseTests [BaseTests.java:37] stopped method: negativeWrongPasswordNoDigits
+2023-10-20 16:30:51,522 INFO t.BaseTests [BaseTests.java:38] stopped method with params: []
+2023-10-20 16:30:51,528 INFO t.BaseTests [BaseTests.java:30] ----------------------------------------------------------------------------------
+2023-10-20 16:30:51,529 INFO t.BaseTests [BaseTests.java:31] started method: negativeWrongPasswordNoLetters
+2023-10-20 16:30:51,531 INFO t.BaseTests [BaseTests.java:32] started method with params: []
+2023-10-20 16:30:51,555 INFO m.WDListener [WDListener.java:148] start on exception in WDListener class
+2023-10-20 16:30:51,558 INFO m.WDListener [WDListener.java:150] created name for the screenshot: src/test/screenshots/screenshot-2023-10-20:30:51.png
+2023-10-20 16:30:51,559 ERROR m.WDListener [WDListener.java:151] unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=118.0.5993.89): Wrong email or password
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-259RB9PK', ip: '192.168.1.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.89, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\lzhol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65044}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 717126848a186e5046358fff4b18d01d
+2023-10-20 16:30:51,560 ERROR m.WDListener [WDListener.java:152] [org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609), org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.lang.reflect.Method.invoke(Method.java:498), org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105), com.sun.proxy.$Proxy15.getCurrentUrl(Unknown Source), manager.WDListener.beforeAlertAccept(WDListener.java:29), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.lang.reflect.Method.invoke(Method.java:498), org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84), com.sun.proxy.$Proxy14.beforeAlertAccept(Unknown Source), org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringAlert.accept(EventFiringWebDriver.java:794), manager.BaseHelper.clickAcceptAlert(BaseHelper.java:75), tests.LoginTests.preconditionsBeforeMethod(LoginTests.java:35), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.lang.reflect.Method.invoke(Method.java:498), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62), org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385), org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321), org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.util.ArrayList.forEach(ArrayList.java:1259), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141), org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90), org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.lang.reflect.Method.invoke(Method.java:498), org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36), org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24), org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33), org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94), com.sun.proxy.$Proxy2.stop(Unknown Source), org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193), org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129), org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100), org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60), org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56), org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133), org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71), worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69), worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)]
+2023-10-20 16:30:51,561 ERROR m.WDListener [WDListener.java:153] org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=118.0.5993.89): Wrong email or password
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-259RB9PK', ip: '192.168.1.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.89, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\lzhol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65044}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 717126848a186e5046358fff4b18d01d
+2023-10-20 16:30:52,263 ERROR m.WDListener [WDListener.java:165] got an exception for adding screenshot to the folder: src\test\screenshots\screenshot-2023-10-20:30:51.png (The filename, directory name, or volume label syntax is incorrect)
+2023-10-20 16:30:52,263 INFO m.TestNGListener [TestNGListener.java:15] started test: negativeWrongPasswordNoLetters
+2023-10-20 16:30:52,263 INFO m.TestNGListener [TestNGListener.java:33] test skipped: negativeWrongPasswordNoLetters
+2023-10-20 16:30:52,263 INFO t.BaseTests [BaseTests.java:37] stopped method: negativeWrongPasswordNoLetters
+2023-10-20 16:30:52,263 INFO t.BaseTests [BaseTests.java:38] stopped method with params: []
+2023-10-20 16:30:52,263 INFO t.BaseTests [BaseTests.java:30] ----------------------------------------------------------------------------------
+2023-10-20 16:30:52,279 INFO t.BaseTests [BaseTests.java:31] started method: negativeWrongPasswordWrongSymbol
+2023-10-20 16:30:52,279 INFO t.BaseTests [BaseTests.java:32] started method with params: []
+2023-10-20 16:30:52,294 INFO m.TestNGListener [TestNGListener.java:15] started test: negativeWrongPasswordWrongSymbol
+2023-10-20 16:30:52,294 INFO m.TestNGListener [TestNGListener.java:33] test skipped: negativeWrongPasswordWrongSymbol
+2023-10-20 16:30:52,294 INFO t.BaseTests [BaseTests.java:37] stopped method: negativeWrongPasswordWrongSymbol
+2023-10-20 16:30:52,294 INFO t.BaseTests [BaseTests.java:38] stopped method with params: []
+2023-10-20 16:30:52,294 INFO t.BaseTests [BaseTests.java:30] ----------------------------------------------------------------------------------
+2023-10-20 16:30:52,294 INFO t.BaseTests [BaseTests.java:31] started method: positiveLoginUserDto
+2023-10-20 16:30:52,294 INFO t.BaseTests [BaseTests.java:32] started method with params: []
+2023-10-20 16:30:52,294 INFO m.TestNGListener [TestNGListener.java:15] started test: positiveLoginUserDto
+2023-10-20 16:30:52,310 INFO m.TestNGListener [TestNGListener.java:33] test skipped: positiveLoginUserDto
+2023-10-20 16:30:52,310 INFO t.BaseTests [BaseTests.java:37] stopped method: positiveLoginUserDto
+2023-10-20 16:30:52,310 INFO t.BaseTests [BaseTests.java:38] stopped method with params: []
+2023-10-20 16:30:52,310 INFO t.BaseTests [BaseTests.java:30] ----------------------------------------------------------------------------------
+2023-10-20 16:30:52,310 INFO t.BaseTests [BaseTests.java:31] started method: positiveLoginUserDtoLombok
+2023-10-20 16:30:52,310 INFO t.BaseTests [BaseTests.java:32] started method with params: []
+2023-10-20 16:30:52,310 INFO m.TestNGListener [TestNGListener.java:15] started test: positiveLoginUserDtoLombok
+2023-10-20 16:30:52,325 INFO m.TestNGListener [TestNGListener.java:33] test skipped: positiveLoginUserDtoLombok
+2023-10-20 16:30:52,327 INFO t.BaseTests [BaseTests.java:37] stopped method: positiveLoginUserDtoLombok
+2023-10-20 16:30:52,327 INFO t.BaseTests [BaseTests.java:38] stopped method with params: []
+2023-10-20 16:30:52,327 INFO t.BaseTests [BaseTests.java:30] ----------------------------------------------------------------------------------
+2023-10-20 16:30:52,327 INFO t.BaseTests [BaseTests.java:31] started method: positiveLoginUserDtoWith
+2023-10-20 16:30:52,327 INFO t.BaseTests [BaseTests.java:32] started method with params: []
+2023-10-20 16:30:52,327 INFO m.TestNGListener [TestNGListener.java:15] started test: positiveLoginUserDtoWith
+2023-10-20 16:30:52,334 INFO m.TestNGListener [TestNGListener.java:33] test skipped: positiveLoginUserDtoWith
+2023-10-20 16:30:52,334 INFO t.BaseTests [BaseTests.java:37] stopped method: positiveLoginUserDtoWith
+2023-10-20 16:30:52,334 INFO t.BaseTests [BaseTests.java:38] stopped method with params: []
+2023-10-20 16:30:52,373 INFO m.TestNGListener [TestNGListener.java:56] all code executed: passed tests: [ResultMap map=[[TestResult name=negativeWrongPasswordNoDigits status=SUCCESS method=LoginTests.negativeWrongPasswordNoDigits()[pri:0, instance:tests.LoginTests@156b88f5] output={null}]]]
+2023-10-20 16:30:52,382 INFO m.TestNGListener [TestNGListener.java:57] all code executed: failed tests: [ResultMap map=[]]

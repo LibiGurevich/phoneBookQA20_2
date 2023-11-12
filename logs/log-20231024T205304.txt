@@ -1,0 +1,11 @@
+2023-10-24 20:53:08,865 INFO m.ApplicationManager [ApplicationManager.java:32] created chrome browser
+2023-10-24 20:53:08,884 INFO m.TestNGListener [TestNGListener.java:50] start test - onstart - : Gradle test
+2023-10-24 20:53:09,071 INFO t.BaseTests [BaseTests.java:40] ----------------------------------------------------------------------------------
+2023-10-24 20:53:09,072 INFO t.BaseTests [BaseTests.java:41] started method: positiveRegistration
+2023-10-24 20:53:09,072 INFO t.BaseTests [BaseTests.java:42] started method with params: []
+2023-10-24 20:53:09,076 INFO m.TestNGListener [TestNGListener.java:15] started test: positiveRegistration
+2023-10-24 20:53:09,080 INFO m.TestNGListener [TestNGListener.java:33] test skipped: positiveRegistration
+2023-10-24 20:53:09,086 INFO t.BaseTests [BaseTests.java:47] stopped method: positiveRegistration
+2023-10-24 20:53:09,086 INFO t.BaseTests [BaseTests.java:48] stopped method with params: []
+2023-10-24 20:53:09,093 INFO m.TestNGListener [TestNGListener.java:56] all code executed: passed tests: [ResultMap map=[]]
+2023-10-24 20:53:09,093 INFO m.TestNGListener [TestNGListener.java:57] all code executed: failed tests: [ResultMap map=[]]

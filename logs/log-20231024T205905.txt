@@ -1,0 +1,32 @@
+2023-10-24 20:59:10,057 INFO m.ApplicationManager [ApplicationManager.java:32] created chrome browser
+2023-10-24 20:59:10,074 INFO m.TestNGListener [TestNGListener.java:50] start test - onstart - : Gradle test
+2023-10-24 20:59:10,475 INFO t.BaseTests [BaseTests.java:40] ----------------------------------------------------------------------------------
+2023-10-24 20:59:10,476 INFO t.BaseTests [BaseTests.java:41] started method: negativeRegNoDigits
+2023-10-24 20:59:10,477 INFO t.BaseTests [BaseTests.java:42] started method with params: []
+2023-10-24 20:59:10,481 INFO m.TestNGListener [TestNGListener.java:15] started test: negativeRegNoDigits
+2023-10-24 20:59:10,483 INFO m.TestNGListener [TestNGListener.java:33] test skipped: negativeRegNoDigits
+2023-10-24 20:59:10,486 INFO t.BaseTests [BaseTests.java:47] stopped method: negativeRegNoDigits
+2023-10-24 20:59:10,487 INFO t.BaseTests [BaseTests.java:48] stopped method with params: []
+2023-10-24 20:59:10,493 INFO t.BaseTests [BaseTests.java:40] ----------------------------------------------------------------------------------
+2023-10-24 20:59:10,493 INFO t.BaseTests [BaseTests.java:41] started method: negativeRegNoLetters
+2023-10-24 20:59:10,494 INFO t.BaseTests [BaseTests.java:42] started method with params: []
+2023-10-24 20:59:10,495 INFO m.TestNGListener [TestNGListener.java:15] started test: negativeRegNoLetters
+2023-10-24 20:59:10,497 INFO m.TestNGListener [TestNGListener.java:33] test skipped: negativeRegNoLetters
+2023-10-24 20:59:10,499 INFO t.BaseTests [BaseTests.java:47] stopped method: negativeRegNoLetters
+2023-10-24 20:59:10,499 INFO t.BaseTests [BaseTests.java:48] stopped method with params: []
+2023-10-24 20:59:10,502 INFO t.BaseTests [BaseTests.java:40] ----------------------------------------------------------------------------------
+2023-10-24 20:59:10,503 INFO t.BaseTests [BaseTests.java:41] started method: negativeRegNoSymbol
+2023-10-24 20:59:10,503 INFO t.BaseTests [BaseTests.java:42] started method with params: []
+2023-10-24 20:59:10,503 INFO m.TestNGListener [TestNGListener.java:15] started test: negativeRegNoSymbol
+2023-10-24 20:59:10,504 INFO m.TestNGListener [TestNGListener.java:33] test skipped: negativeRegNoSymbol
+2023-10-24 20:59:10,507 INFO t.BaseTests [BaseTests.java:47] stopped method: negativeRegNoSymbol
+2023-10-24 20:59:10,508 INFO t.BaseTests [BaseTests.java:48] stopped method with params: []
+2023-10-24 20:59:10,510 INFO t.BaseTests [BaseTests.java:40] ----------------------------------------------------------------------------------
+2023-10-24 20:59:10,510 INFO t.BaseTests [BaseTests.java:41] started method: positiveRegistration
+2023-10-24 20:59:10,511 INFO t.BaseTests [BaseTests.java:42] started method with params: []
+2023-10-24 20:59:10,512 INFO m.TestNGListener [TestNGListener.java:15] started test: positiveRegistration
+2023-10-24 20:59:10,512 INFO m.TestNGListener [TestNGListener.java:33] test skipped: positiveRegistration
+2023-10-24 20:59:10,522 INFO t.BaseTests [BaseTests.java:47] stopped method: positiveRegistration
+2023-10-24 20:59:10,522 INFO t.BaseTests [BaseTests.java:48] stopped method with params: []
+2023-10-24 20:59:10,526 INFO m.TestNGListener [TestNGListener.java:56] all code executed: passed tests: [ResultMap map=[]]
+2023-10-24 20:59:10,526 INFO m.TestNGListener [TestNGListener.java:57] all code executed: failed tests: [ResultMap map=[]]

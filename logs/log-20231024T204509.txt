@@ -1,0 +1,18 @@
+2023-10-24 20:45:16,876 INFO m.ApplicationManager [ApplicationManager.java:35] started tests in Firefox driver
+2023-10-24 20:45:16,887 INFO m.TestNGListener [TestNGListener.java:50] start test - onstart - : Gradle test
+2023-10-24 20:45:16,968 INFO t.BaseTests [BaseTests.java:40] ----------------------------------------------------------------------------------
+2023-10-24 20:45:16,969 INFO t.BaseTests [BaseTests.java:41] started method: positiveLoginUserDto
+2023-10-24 20:45:16,971 INFO t.BaseTests [BaseTests.java:42] started method with params: []
+2023-10-24 20:45:16,974 INFO m.TestNGListener [TestNGListener.java:15] started test: positiveLoginUserDto
+2023-10-24 20:45:16,979 INFO m.TestNGListener [TestNGListener.java:33] test skipped: positiveLoginUserDto
+2023-10-24 20:45:16,982 INFO t.BaseTests [BaseTests.java:47] stopped method: positiveLoginUserDto
+2023-10-24 20:45:16,983 INFO t.BaseTests [BaseTests.java:48] stopped method with params: []
+2023-10-24 20:45:16,993 INFO t.BaseTests [BaseTests.java:40] ----------------------------------------------------------------------------------
+2023-10-24 20:45:16,994 INFO t.BaseTests [BaseTests.java:41] started method: positiveRegistration
+2023-10-24 20:45:16,994 INFO t.BaseTests [BaseTests.java:42] started method with params: []
+2023-10-24 20:45:16,996 INFO m.TestNGListener [TestNGListener.java:15] started test: positiveRegistration
+2023-10-24 20:45:16,997 INFO m.TestNGListener [TestNGListener.java:33] test skipped: positiveRegistration
+2023-10-24 20:45:17,000 INFO t.BaseTests [BaseTests.java:47] stopped method: positiveRegistration
+2023-10-24 20:45:17,001 INFO t.BaseTests [BaseTests.java:48] stopped method with params: []
+2023-10-24 20:45:17,008 INFO m.TestNGListener [TestNGListener.java:56] all code executed: passed tests: [ResultMap map=[]]
+2023-10-24 20:45:17,008 INFO m.TestNGListener [TestNGListener.java:57] all code executed: failed tests: [ResultMap map=[]]

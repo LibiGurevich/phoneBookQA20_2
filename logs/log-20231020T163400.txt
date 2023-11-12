@@ -1,0 +1,5 @@
+2023-10-20 16:34:05,112 INFO m.ApplicationManager [ApplicationManager.java:23] open page: https://telranedu.web.app/home
+2023-10-20 16:34:05,342 INFO m.TestNGListener [TestNGListener.java:50] start test - onstart - : Gradle test
+2023-10-20 16:34:05,398 INFO m.WDListener [WDListener.java:49] navigate to: https://telranedu.web.app/home
+2023-10-20 16:34:05,488 INFO m.WDListener [WDListener.java:55] navigate to: https://telranedu.web.app/home
+2023-10-20 16:34:05,624 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[@href='/login']
