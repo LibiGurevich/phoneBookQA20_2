@@ -1,0 +1,10 @@
+2023-10-27 10:07:05,958 INFO m.ApplicationManager [ApplicationManager.java:29] created chrome browser
+2023-10-27 10:07:06,658 INFO m.ApplicationManager [ApplicationManager.java:36] open page: https://telranedu.web.app/home
+2023-10-27 10:07:06,893 INFO m.TestNGListener [TestNGListener.java:50] start test - onstart - : Gradle test
+2023-10-27 10:07:07,046 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[@href='/login']
+2023-10-27 10:07:07,047 INFO m.WDListener [WDListener.java:92] before find element: By.xpath: //a[@href='/login']
+2023-10-27 10:07:07,096 INFO m.WDListener [WDListener.java:98] element found success: By.xpath: //a[@href='/login']
+2023-10-27 10:07:07,107 INFO m.WDListener [WDListener.java:104] start method click
+2023-10-27 10:07:07,239 INFO m.WDListener [WDListener.java:110] done method click
+2023-10-27 10:07:07,276 INFO m.TestNGListener [TestNGListener.java:56] all code executed: passed tests: [ResultMap map=[]]
+2023-10-27 10:07:07,277 INFO m.TestNGListener [TestNGListener.java:57] all code executed: failed tests: [ResultMap map=[]]

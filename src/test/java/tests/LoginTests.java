@@ -1,54 +1,33 @@
 package tests;
 
+import data.DataProviderLogin;
 import dto.UserDTO;
 import dto.UserDTOWith;
 import dto.UserDtoLombok;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class LoginTests extends BaseTests {
 
-    boolean flagIsAlertPresent = false;
-    boolean flagIsUserLogin = false;
+    @BeforeClass(alwaysRun = true)
+    public void preconditionsBeforeClass() {
+        if(app.isPageUrlHome()) {
+            app.getUserHelper().openLoginPage();
+        }
+    }
 
-//    @BeforeClass
-//    public void preconditionsBeforeClass() {
-//        // refresh // go main page // click btn login
-//        app.navigateToMainPage();
-//        app.getUserHelper().refresh();
-//        app.getUserHelper().openLoginPage();
-//    }
-
-    @BeforeMethod
+    @AfterMethod(alwaysRun = true)
     public void preconditionsBeforeMethod() {
-        if(flagIsAlertPresent) {
-            app.getUserHelper().refresh();
-            flagIsUserLogin = false;
-            try {
-                Thread.sleep(10000);
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            }
-            app.getUserHelper().clickAcceptAlert();
-        }
-        if (flagIsUserLogin) {
-            flagIsUserLogin = false;
-            app.getUserHelper().logout();
-        }
-        app.getUserHelper().refresh();
-        // login
-        // sign out
-        // alert
+        preconditionForLoginAndRegTests();
     }
     UserDTOWith userDTOWith = new UserDTOWith()
             .withEmail("testqa20@gmail.com")
             .withPassword("123456Aa$");
     UserDTO userDTO = new UserDTO("testqa20@gmail.com", "123456Aa$");
 
-    @Test
+    @Test(groups={"smoke"})
     public void positiveLoginUserDto() {
         logger.info("logger info: start test positiveLoginUserDto");
         logger.info(String
@@ -67,29 +46,30 @@ public class LoginTests extends BaseTests {
         Assert.assertTrue(app.getUserHelper().validateContactTextDisplaysMainMenu());
     }
 
-    @Test
-    public void positiveLoginUserDtoLombok() {
-        UserDtoLombok user = UserDtoLombok.builder()
-                .email("testqa20@gmail.com")
-                .password("123456Aa$")
-                .build();
-        app.getUserHelper().fillLoginUserDtoLombok(user);
+    // @Test(groups={"regression"}, dataProvider = "positiveDataLogin", dataProviderClass = DataProviderLogin.class)
+    @Test (dataProvider = "loginCSV", dataProviderClass = DataProviderLogin.class)
+    public void positiveLoginUserDtoLombok(UserDtoLombok userDP) {
+//        UserDtoLombok user = UserDtoLombok.builder()
+//                .email("testqa20@gmail.com")
+//                .password("123456Aa$")
+//                .build();
+        app.getUserHelper().fillLoginUserDtoLombok(userDP);
         flagIsUserLogin = true;
         Assert.assertTrue(app.getUserHelper().validateContactTextDisplaysMainMenu());
     }
 
-    @Test
-    public void negativeWrongPasswordWrongSymbol() {
-        UserDtoLombok user = UserDtoLombok.builder()
-                .email("testqa20@gmail.com")
-                .password("123456Aa5")
-                .build();
-        app.getUserHelper().fillLoginUserDtoLombok(user);
+    @Test (groups = {"smoke"}, dataProvider = "negativePasswordDataLogin", dataProviderClass = DataProviderLogin.class)
+    public void negativeWrongPasswordWrongSymbol(UserDtoLombok userDP) {
+//        UserDtoLombok user = UserDtoLombok.builder()
+//                .email("testqa20@gmail.com")
+//                .password("123456Aa5")
+//                .build();
+        app.getUserHelper().fillLoginUserDtoLombok(userDP);
         flagIsAlertPresent = true;
         Assert.assertTrue(app.getUserHelper().validateMessageAlertWrongEmailPasswordCorrect()); // Wrong email or password
     }
 
-    @Test
+    @Test(invocationCount = 2)
     public void negativeWrongPasswordNoLetters() {
         UserDtoLombok user = UserDtoLombok.builder()
                 .email("testqa20@gmail.com")
@@ -110,6 +90,5 @@ public class LoginTests extends BaseTests {
         flagIsAlertPresent = true;
         Assert.assertTrue(app.getUserHelper().validateMessageAlertWrongEmailPasswordCorrect()); // Wrong email or password
     }
-
 
 }

@@ -1,0 +1,54 @@
+2023-10-27 09:09:43,798 INFO m.ApplicationManager [ApplicationManager.java:29] created chrome browser
+2023-10-27 09:09:45,320 INFO m.ApplicationManager [ApplicationManager.java:36] open page: https://telranedu.web.app/home
+2023-10-27 09:09:45,785 INFO m.TestNGListener [TestNGListener.java:50] start test - onstart - : Gradle test
+2023-10-27 09:09:46,019 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[@href='/login']
+2023-10-27 09:09:46,022 INFO m.WDListener [WDListener.java:92] before find element: By.xpath: //a[@href='/login']
+2023-10-27 09:09:46,098 INFO m.WDListener [WDListener.java:98] element found success: By.xpath: //a[@href='/login']
+2023-10-27 09:09:46,112 INFO m.WDListener [WDListener.java:104] start method click
+2023-10-27 09:09:46,636 INFO m.WDListener [WDListener.java:110] done method click
+2023-10-27 09:09:46,671 INFO t.BaseTests [BaseTests.java:40] ----------------------------------------------------------------------------------
+2023-10-27 09:09:46,673 INFO t.BaseTests [BaseTests.java:41] started method: negativeWrongPasswordNoLetters
+2023-10-27 09:09:46,674 INFO t.BaseTests [BaseTests.java:42] started method with params: []
+2023-10-27 09:09:46,676 INFO m.TestNGListener [TestNGListener.java:15] started test: negativeWrongPasswordNoLetters
+2023-10-27 09:09:46,678 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@name='email']
+2023-10-27 09:09:46,679 INFO m.WDListener [WDListener.java:92] before find element: By.xpath: //input[@name='email']
+2023-10-27 09:09:46,786 INFO m.WDListener [WDListener.java:98] element found success: By.xpath: //input[@name='email']
+2023-10-27 09:09:46,787 INFO m.WDListener [WDListener.java:104] start method click
+2023-10-27 09:09:47,162 INFO m.WDListener [WDListener.java:110] done method click
+2023-10-27 09:09:47,571 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@name='password']
+2023-10-27 09:09:47,572 INFO m.WDListener [WDListener.java:92] before find element: By.xpath: //input[@name='password']
+2023-10-27 09:09:47,645 INFO m.WDListener [WDListener.java:98] element found success: By.xpath: //input[@name='password']
+2023-10-27 09:09:47,645 INFO m.WDListener [WDListener.java:104] start method click
+2023-10-27 09:09:47,814 INFO m.WDListener [WDListener.java:110] done method click
+2023-10-27 09:09:48,061 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@name='login']
+2023-10-27 09:09:48,063 INFO m.WDListener [WDListener.java:92] before find element: By.xpath: //button[@name='login']
+2023-10-27 09:09:48,105 INFO m.WDListener [WDListener.java:98] element found success: By.xpath: //button[@name='login']
+2023-10-27 09:09:48,106 INFO m.WDListener [WDListener.java:104] start method click
+2023-10-27 09:09:48,198 INFO m.WDListener [WDListener.java:110] done method click
+2023-10-27 09:09:49,285 INFO m.TestNGListener [TestNGListener.java:21] test success: negativeWrongPasswordNoLetters
+2023-10-27 09:09:49,317 INFO t.BaseTests [BaseTests.java:47] stopped method: negativeWrongPasswordNoLetters
+2023-10-27 09:09:49,318 INFO t.BaseTests [BaseTests.java:48] stopped method with params: []
+2023-10-27 09:09:49,319 INFO t.BaseTests [BaseTests.java:40] ----------------------------------------------------------------------------------
+2023-10-27 09:09:49,321 INFO t.BaseTests [BaseTests.java:41] started method: negativeWrongPasswordNoLetters
+2023-10-27 09:09:49,322 INFO t.BaseTests [BaseTests.java:42] started method with params: []
+2023-10-27 09:09:49,323 INFO m.TestNGListener [TestNGListener.java:15] started test: negativeWrongPasswordNoLetters
+2023-10-27 09:09:49,324 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@name='email']
+2023-10-27 09:09:49,325 INFO m.WDListener [WDListener.java:92] before find element: By.xpath: //input[@name='email']
+2023-10-27 09:09:49,366 INFO m.WDListener [WDListener.java:98] element found success: By.xpath: //input[@name='email']
+2023-10-27 09:09:49,367 INFO m.WDListener [WDListener.java:104] start method click
+2023-10-27 09:09:49,506 INFO m.WDListener [WDListener.java:110] done method click
+2023-10-27 09:09:49,970 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@name='password']
+2023-10-27 09:09:49,971 INFO m.WDListener [WDListener.java:92] before find element: By.xpath: //input[@name='password']
+2023-10-27 09:09:49,997 INFO m.WDListener [WDListener.java:98] element found success: By.xpath: //input[@name='password']
+2023-10-27 09:09:49,997 INFO m.WDListener [WDListener.java:104] start method click
+2023-10-27 09:09:50,487 INFO m.WDListener [WDListener.java:110] done method click
+2023-10-27 09:09:51,863 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@name='login']
+2023-10-27 09:09:51,863 INFO m.WDListener [WDListener.java:92] before find element: By.xpath: //button[@name='login']
+2023-10-27 09:09:51,900 INFO m.WDListener [WDListener.java:98] element found success: By.xpath: //button[@name='login']
+2023-10-27 09:09:51,901 INFO m.WDListener [WDListener.java:104] start method click
+2023-10-27 09:09:51,984 INFO m.WDListener [WDListener.java:110] done method click
+2023-10-27 09:09:53,015 INFO m.TestNGListener [TestNGListener.java:21] test success: negativeWrongPasswordNoLetters
+2023-10-27 09:09:53,069 INFO t.BaseTests [BaseTests.java:47] stopped method: negativeWrongPasswordNoLetters
+2023-10-27 09:09:53,071 INFO t.BaseTests [BaseTests.java:48] stopped method with params: []
+2023-10-27 09:09:53,080 INFO m.TestNGListener [TestNGListener.java:56] all code executed: passed tests: [ResultMap map=[[TestResult name=negativeWrongPasswordNoLetters status=SUCCESS method=LoginTests.negativeWrongPasswordNoLetters()[pri:0, instance:tests.LoginTests@fba92d3] output={null}], [TestResult name=negativeWrongPasswordNoLetters status=SUCCESS method=LoginTests.negativeWrongPasswordNoLetters()[pri:0, instance:tests.LoginTests@fba92d3] output={null}]]]
+2023-10-27 09:09:53,083 INFO m.TestNGListener [TestNGListener.java:57] all code executed: failed tests: [ResultMap map=[]]

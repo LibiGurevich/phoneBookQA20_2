@@ -1,0 +1,11 @@
+2023-10-27 09:28:27,877 INFO m.ApplicationManager [ApplicationManager.java:29] created chrome browser
+2023-10-27 09:28:29,193 INFO m.ApplicationManager [ApplicationManager.java:36] open page: https://telranedu.web.app/home
+2023-10-27 09:28:29,609 INFO m.TestNGListener [TestNGListener.java:50] start test - onstart - : Gradle test
+2023-10-27 09:28:29,701 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[@href='/login']
+2023-10-27 09:28:29,703 INFO m.WDListener [WDListener.java:92] before find element: By.xpath: //a[@href='/login']
+2023-10-27 09:28:29,737 INFO m.WDListener [WDListener.java:98] element found success: By.xpath: //a[@href='/login']
+2023-10-27 09:28:29,747 INFO m.WDListener [WDListener.java:104] start method click
+2023-10-27 09:28:29,867 INFO m.WDListener [WDListener.java:110] done method click
+2023-10-27 09:28:29,906 INFO m.TestNGListener [TestNGListener.java:27] test failure: positiveLoginUserDtoLombok
+2023-10-27 09:28:29,913 INFO m.TestNGListener [TestNGListener.java:56] all code executed: passed tests: [ResultMap map=[]]
+2023-10-27 09:28:29,914 INFO m.TestNGListener [TestNGListener.java:57] all code executed: failed tests: [ResultMap map=[[TestResult name=positiveLoginUserDtoLombok status=FAILURE method=LoginTests.positiveLoginUserDtoLombok(dto.UserDtoLombok)[pri:0, instance:tests.LoginTests@662b4c69] output={null}]]]

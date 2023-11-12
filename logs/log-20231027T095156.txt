@@ -1,0 +1,11 @@
+2023-10-27 09:52:01,589 INFO m.ApplicationManager [ApplicationManager.java:29] created chrome browser
+2023-10-27 09:52:01,938 INFO m.ApplicationManager [ApplicationManager.java:36] open page: https://telranedu.web.app/home
+2023-10-27 09:52:03,048 INFO m.TestNGListener [TestNGListener.java:50] start test - onstart - : smoke
+2023-10-27 09:52:03,121 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[@href='/login']
+2023-10-27 09:52:03,122 INFO m.WDListener [WDListener.java:92] before find element: By.xpath: //a[@href='/login']
+2023-10-27 09:52:03,170 INFO m.WDListener [WDListener.java:98] element found success: By.xpath: //a[@href='/login']
+2023-10-27 09:52:03,179 INFO m.WDListener [WDListener.java:104] start method click
+2023-10-27 09:52:03,326 INFO m.WDListener [WDListener.java:110] done method click
+2023-10-27 09:52:03,359 INFO m.TestNGListener [TestNGListener.java:27] test failure: negativeWrongPasswordWrongSymbol
+2023-10-27 09:52:03,366 INFO m.TestNGListener [TestNGListener.java:56] all code executed: passed tests: [ResultMap map=[]]
+2023-10-27 09:52:03,367 INFO m.TestNGListener [TestNGListener.java:57] all code executed: failed tests: [ResultMap map=[[TestResult name=negativeWrongPasswordWrongSymbol status=FAILURE method=LoginTests.negativeWrongPasswordWrongSymbol(dto.UserDtoLombok)[pri:0, instance:tests.LoginTests@56cdfb3b] output={null}]]]
