@@ -23,9 +23,9 @@ public class LoginTests extends BaseTests {
         preconditionForLoginAndRegTests();
     }
     UserDTOWith userDTOWith = new UserDTOWith()
-            .withEmail("testqa20@gmail.com")
-            .withPassword("123456Aa$");
-    UserDTO userDTO = new UserDTO("testqa20@gmail.com", "123456Aa$");
+            .withEmail("qwerty@qwer.ty")
+            .withPassword("Qwerty!1");
+    UserDTO userDTO = new UserDTO("qwerty@qwer.ty", "Qwerty!1");
 
     @Test(groups={"smoke"})
     public void positiveLoginUserDto() {
@@ -72,8 +72,8 @@ public class LoginTests extends BaseTests {
     @Test(invocationCount = 2)
     public void negativeWrongPasswordNoLetters() {
         UserDtoLombok user = UserDtoLombok.builder()
-                .email("testqa20@gmail.com")
-                .password("12345655$")
+                .username("qwerty@qwer.ty")
+                .password("123456!11")
                 .build();
         app.getUserHelper().fillLoginUserDtoLombok(user);
         flagIsAlertPresent = true;
@@ -83,8 +83,8 @@ public class LoginTests extends BaseTests {
     @Test
     public void negativeWrongPasswordNoDigits() {
         UserDtoLombok user = UserDtoLombok.builder()
-                .email("testqa20@gmail.com")
-                .password("ajdsbH#$dmk")
+                .username("qwerty@qwer.ty")
+                .password("Qwerty!!")
                 .build();
         app.getUserHelper().fillLoginUserDtoLombok(user);
         flagIsAlertPresent = true;

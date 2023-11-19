@@ -1,5 +1,4 @@
 package dto;
-
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -9,10 +8,8 @@ import lombok.ToString;
 @Setter
 @ToString
 @Builder
-public class UserDtoLombok {
-    String username;
-    String password;
+public class AllContactsDTO {
+    NewContactDto[] contacts;
 }
-
 
 
