@@ -21,8 +21,8 @@ public class BaseTests {
     static ApplicationManager app = new ApplicationManager();
 
     UserDtoLombok user = UserDtoLombok.builder()
-            .username("testqa20@gmail.com")
-            .password("123456Aa$")
+            .username("qwerty@qwer.ty")
+            .password("Qwerty!1")
             .build();
 
     @BeforeSuite(alwaysRun = true)

@@ -1,0 +1,54 @@
+2023-11-12 17:31:22,280 INFO m.ApplicationManager [ApplicationManager.java:30] created chrome browser
+2023-11-12 17:31:26,882 INFO m.ApplicationManager [ApplicationManager.java:37] open page: https://telranedu.web.app/home
+2023-11-12 17:31:27,085 INFO m.TestNGListener [TestNGListener.java:50] start test - onstart - : smoke
+2023-11-12 17:31:27,236 INFO t.BaseTests [BaseTests.java:40] ----------------------------------------------------------------------------------
+2023-11-12 17:31:27,237 INFO t.BaseTests [BaseTests.java:41] started method: negativeWrongPasswordNoDigits
+2023-11-12 17:31:27,238 INFO t.BaseTests [BaseTests.java:42] started method with params: []
+2023-11-12 17:31:27,244 INFO m.TestNGListener [TestNGListener.java:15] started test: negativeWrongPasswordNoDigits
+2023-11-12 17:31:27,246 INFO m.TestNGListener [TestNGListener.java:33] test skipped: negativeWrongPasswordNoDigits
+2023-11-12 17:31:27,256 INFO t.BaseTests [BaseTests.java:47] stopped method: negativeWrongPasswordNoDigits
+2023-11-12 17:31:27,257 INFO t.BaseTests [BaseTests.java:48] stopped method with params: []
+2023-11-12 17:31:27,260 INFO t.BaseTests [BaseTests.java:40] ----------------------------------------------------------------------------------
+2023-11-12 17:31:27,261 INFO t.BaseTests [BaseTests.java:41] started method: negativeWrongPasswordNoLetters
+2023-11-12 17:31:27,261 INFO t.BaseTests [BaseTests.java:42] started method with params: []
+2023-11-12 17:31:27,262 INFO m.TestNGListener [TestNGListener.java:15] started test: negativeWrongPasswordNoLetters
+2023-11-12 17:31:27,263 INFO m.TestNGListener [TestNGListener.java:33] test skipped: negativeWrongPasswordNoLetters
+2023-11-12 17:31:27,267 INFO t.BaseTests [BaseTests.java:47] stopped method: negativeWrongPasswordNoLetters
+2023-11-12 17:31:27,268 INFO t.BaseTests [BaseTests.java:48] stopped method with params: []
+2023-11-12 17:31:27,270 INFO t.BaseTests [BaseTests.java:40] ----------------------------------------------------------------------------------
+2023-11-12 17:31:27,271 INFO t.BaseTests [BaseTests.java:41] started method: negativeWrongPasswordNoLetters
+2023-11-12 17:31:27,271 INFO t.BaseTests [BaseTests.java:42] started method with params: []
+2023-11-12 17:31:27,272 INFO m.TestNGListener [TestNGListener.java:15] started test: negativeWrongPasswordNoLetters
+2023-11-12 17:31:27,272 INFO m.TestNGListener [TestNGListener.java:33] test skipped: negativeWrongPasswordNoLetters
+2023-11-12 17:31:27,276 INFO t.BaseTests [BaseTests.java:47] stopped method: negativeWrongPasswordNoLetters
+2023-11-12 17:31:27,276 INFO t.BaseTests [BaseTests.java:48] stopped method with params: []
+2023-11-12 17:31:27,321 INFO t.BaseTests [BaseTests.java:40] ----------------------------------------------------------------------------------
+2023-11-12 17:31:27,322 INFO t.BaseTests [BaseTests.java:41] started method: negativeWrongPasswordWrongSymbol
+2023-11-12 17:31:27,322 INFO t.BaseTests [BaseTests.java:42] started method with params: [dto.UserDtoLombok arg0]
+2023-11-12 17:31:27,323 INFO m.TestNGListener [TestNGListener.java:15] started test: negativeWrongPasswordWrongSymbol
+2023-11-12 17:31:27,327 INFO m.TestNGListener [TestNGListener.java:33] test skipped: negativeWrongPasswordWrongSymbol
+2023-11-12 17:31:27,330 INFO t.BaseTests [BaseTests.java:47] stopped method: negativeWrongPasswordWrongSymbol
+2023-11-12 17:31:27,330 INFO t.BaseTests [BaseTests.java:48] stopped method with params: [dto.UserDtoLombok arg0]
+2023-11-12 17:31:27,331 INFO t.BaseTests [BaseTests.java:40] ----------------------------------------------------------------------------------
+2023-11-12 17:31:27,332 INFO t.BaseTests [BaseTests.java:41] started method: negativeWrongPasswordWrongSymbol
+2023-11-12 17:31:27,333 INFO t.BaseTests [BaseTests.java:42] started method with params: [dto.UserDtoLombok arg0]
+2023-11-12 17:31:27,335 INFO m.TestNGListener [TestNGListener.java:15] started test: negativeWrongPasswordWrongSymbol
+2023-11-12 17:31:27,336 INFO m.TestNGListener [TestNGListener.java:33] test skipped: negativeWrongPasswordWrongSymbol
+2023-11-12 17:31:27,340 INFO t.BaseTests [BaseTests.java:47] stopped method: negativeWrongPasswordWrongSymbol
+2023-11-12 17:31:27,341 INFO t.BaseTests [BaseTests.java:48] stopped method with params: [dto.UserDtoLombok arg0]
+2023-11-12 17:31:27,343 INFO t.BaseTests [BaseTests.java:40] ----------------------------------------------------------------------------------
+2023-11-12 17:31:27,344 INFO t.BaseTests [BaseTests.java:41] started method: positiveLoginUserDto
+2023-11-12 17:31:27,344 INFO t.BaseTests [BaseTests.java:42] started method with params: []
+2023-11-12 17:31:27,346 INFO m.TestNGListener [TestNGListener.java:15] started test: positiveLoginUserDto
+2023-11-12 17:31:27,347 INFO m.TestNGListener [TestNGListener.java:33] test skipped: positiveLoginUserDto
+2023-11-12 17:31:27,349 INFO t.BaseTests [BaseTests.java:47] stopped method: positiveLoginUserDto
+2023-11-12 17:31:27,350 INFO t.BaseTests [BaseTests.java:48] stopped method with params: []
+2023-11-12 17:31:27,444 INFO t.BaseTests [BaseTests.java:40] ----------------------------------------------------------------------------------
+2023-11-12 17:31:27,445 INFO t.BaseTests [BaseTests.java:41] started method: positiveLoginUserDtoWith
+2023-11-12 17:31:27,445 INFO t.BaseTests [BaseTests.java:42] started method with params: []
+2023-11-12 17:31:27,446 INFO m.TestNGListener [TestNGListener.java:15] started test: positiveLoginUserDtoWith
+2023-11-12 17:31:27,447 INFO m.TestNGListener [TestNGListener.java:33] test skipped: positiveLoginUserDtoWith
+2023-11-12 17:31:27,449 INFO t.BaseTests [BaseTests.java:47] stopped method: positiveLoginUserDtoWith
+2023-11-12 17:31:27,450 INFO t.BaseTests [BaseTests.java:48] stopped method with params: []
+2023-11-12 17:31:27,455 INFO m.TestNGListener [TestNGListener.java:56] all code executed: passed tests: [ResultMap map=[]]
+2023-11-12 17:31:27,456 INFO m.TestNGListener [TestNGListener.java:57] all code executed: failed tests: [ResultMap map=[]]
