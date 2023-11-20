@@ -12,6 +12,7 @@ import java.io.IOException;
 
 public class RegistrationTestOkHTTP {
 
+
     public static final MediaType JSON = MediaType.get("application/json");
     Gson gson = new Gson();
     OkHttpClient okHttpClient = new OkHttpClient();
