@@ -1,14 +1,21 @@
 package dto;
 
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
 
-@Getter
-@Setter
-@ToString
-@Builder
 public class MessageResponseDTO {
     String message;
+
+    public MessageResponseDTO(String message) {
+        this.message = message;
+    }
+
+    public MessageResponseDTO() {
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
 }

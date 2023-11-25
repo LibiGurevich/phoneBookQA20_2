@@ -1,0 +1,76 @@
+2023-11-23 13:33:18,026 DEBUG o.a.h.i.c.BasicClientConnectionManager [BasicClientConnectionManager.java:160] Get connection for route {s}->https://contactapp-telran-backend.herokuapp.com:443
+2023-11-23 13:33:18,153 DEBUG o.a.h.i.c.DefaultClientConnectionOperator [DefaultClientConnectionOperator.java:174] Connecting to contactapp-telran-backend.herokuapp.com:443
+2023-11-23 13:33:18,994 DEBUG o.a.h.c.p.RequestAddCookies [RequestAddCookies.java:122] CookieSpec selected: ignoreCookies
+2023-11-23 13:33:18,997 DEBUG o.a.h.c.p.RequestAuthCache [RequestAuthCache.java:76] Auth cache not set in the context
+2023-11-23 13:33:18,999 DEBUG o.a.h.c.p.RequestTargetAuthentication [RequestTargetAuthentication.java:78] Target auth state: UNCHALLENGED
+2023-11-23 13:33:19,001 DEBUG o.a.h.c.p.RequestProxyAuthentication [RequestProxyAuthentication.java:87] Proxy auth state: UNCHALLENGED
+2023-11-23 13:33:19,002 DEBUG o.a.h.i.c.DefaultHttpClient [DefaultRequestDirector.java:683] Attempt 1 to execute request
+2023-11-23 13:33:19,002 DEBUG o.a.h.i.c.DefaultClientConnection [DefaultClientConnection.java:268] Sending request: POST /v1/user/login/usernamepassword HTTP/1.1
+2023-11-23 13:33:19,003 DEBUG o.a.h.wire [Wire.java:72]  >> "POST /v1/user/login/usernamepassword HTTP/1.1[\r][\n]"
+2023-11-23 13:33:19,006 DEBUG o.a.h.wire [Wire.java:72]  >> "Accept: */*[\r][\n]"
+2023-11-23 13:33:19,007 DEBUG o.a.h.wire [Wire.java:72]  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+2023-11-23 13:33:19,007 DEBUG o.a.h.wire [Wire.java:72]  >> "Content-Length: 51[\r][\n]"
+2023-11-23 13:33:19,008 DEBUG o.a.h.wire [Wire.java:72]  >> "Host: contactapp-telran-backend.herokuapp.com[\r][\n]"
+2023-11-23 13:33:19,008 DEBUG o.a.h.wire [Wire.java:72]  >> "Connection: Keep-Alive[\r][\n]"
+2023-11-23 13:33:19,008 DEBUG o.a.h.wire [Wire.java:72]  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_333)[\r][\n]"
+2023-11-23 13:33:19,009 DEBUG o.a.h.wire [Wire.java:72]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-11-23 13:33:19,009 DEBUG o.a.h.wire [Wire.java:72]  >> "[\r][\n]"
+2023-11-23 13:33:19,010 DEBUG o.a.h.headers [DefaultClientConnection.java:272] >> POST /v1/user/login/usernamepassword HTTP/1.1
+2023-11-23 13:33:19,010 DEBUG o.a.h.headers [DefaultClientConnection.java:275] >> Accept: */*
+2023-11-23 13:33:19,012 DEBUG o.a.h.headers [DefaultClientConnection.java:275] >> Content-Type: text/plain; charset=ISO-8859-1
+2023-11-23 13:33:19,013 DEBUG o.a.h.headers [DefaultClientConnection.java:275] >> Content-Length: 51
+2023-11-23 13:33:19,014 DEBUG o.a.h.headers [DefaultClientConnection.java:275] >> Host: contactapp-telran-backend.herokuapp.com
+2023-11-23 13:33:19,015 DEBUG o.a.h.headers [DefaultClientConnection.java:275] >> Connection: Keep-Alive
+2023-11-23 13:33:19,015 DEBUG o.a.h.headers [DefaultClientConnection.java:275] >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_333)
+2023-11-23 13:33:19,016 DEBUG o.a.h.headers [DefaultClientConnection.java:275] >> Accept-Encoding: gzip,deflate
+2023-11-23 13:33:19,017 DEBUG o.a.h.wire [Wire.java:86]  >> "{"username":"qwerty@qwer.ty","password":"Qwerty!1"}"
+2023-11-23 13:33:19,280 DEBUG o.a.h.wire [Wire.java:72]  << "HTTP/1.1 200 [\r][\n]"
+2023-11-23 13:33:19,293 DEBUG o.a.h.wire [Wire.java:72]  << "Server: Cowboy[\r][\n]"
+2023-11-23 13:33:19,295 DEBUG o.a.h.wire [Wire.java:72]  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700739198&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=DzpB58Xx0uP0dVqO5Fy6HiuwCail6pqmjCeCGcH79ts%3D"}]}[\r][\n]"
+2023-11-23 13:33:19,299 DEBUG o.a.h.wire [Wire.java:72]  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700739198&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=DzpB58Xx0uP0dVqO5Fy6HiuwCail6pqmjCeCGcH79ts%3D[\r][\n]"
+2023-11-23 13:33:19,301 DEBUG o.a.h.wire [Wire.java:72]  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+2023-11-23 13:33:19,303 DEBUG o.a.h.wire [Wire.java:72]  << "Connection: keep-alive[\r][\n]"
+2023-11-23 13:33:19,305 DEBUG o.a.h.wire [Wire.java:72]  << "Vary: Origin[\r][\n]"
+2023-11-23 13:33:19,307 DEBUG o.a.h.wire [Wire.java:72]  << "Vary: Access-Control-Request-Method[\r][\n]"
+2023-11-23 13:33:19,308 DEBUG o.a.h.wire [Wire.java:72]  << "Vary: Access-Control-Request-Headers[\r][\n]"
+2023-11-23 13:33:19,309 DEBUG o.a.h.wire [Wire.java:72]  << "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoicXdlcnR5QHF3ZXIudHkiLCJpc3MiOiJSZWd1bGFpdCIsImV4cCI6MTcwMTMzOTE5OCwiaWF0IjoxNzAwNzM5MTk4fQ.4AljThDVLvSerXKZXfFNIRTMEBtUOf8VbK-DkI2uq2E[\r][\n]"
+2023-11-23 13:33:19,311 DEBUG o.a.h.wire [Wire.java:72]  << "X-Content-Type-Options: nosniff[\r][\n]"
+2023-11-23 13:33:19,312 DEBUG o.a.h.wire [Wire.java:72]  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+2023-11-23 13:33:19,313 DEBUG o.a.h.wire [Wire.java:72]  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+2023-11-23 13:33:19,314 DEBUG o.a.h.wire [Wire.java:72]  << "Pragma: no-cache[\r][\n]"
+2023-11-23 13:33:19,315 DEBUG o.a.h.wire [Wire.java:72]  << "Expires: 0[\r][\n]"
+2023-11-23 13:33:19,317 DEBUG o.a.h.wire [Wire.java:72]  << "Strict-Transport-Security: max-age=31536000 ; includeSubDomains[\r][\n]"
+2023-11-23 13:33:19,317 DEBUG o.a.h.wire [Wire.java:72]  << "X-Frame-Options: DENY[\r][\n]"
+2023-11-23 13:33:19,319 DEBUG o.a.h.wire [Wire.java:72]  << "Content-Type: application/json;charset=ISO-8859-1[\r][\n]"
+2023-11-23 13:33:19,319 DEBUG o.a.h.wire [Wire.java:72]  << "Content-Length: 207[\r][\n]"
+2023-11-23 13:33:19,320 DEBUG o.a.h.wire [Wire.java:72]  << "Date: Thu, 23 Nov 2023 11:33:18 GMT[\r][\n]"
+2023-11-23 13:33:19,321 DEBUG o.a.h.wire [Wire.java:72]  << "Via: 1.1 vegur[\r][\n]"
+2023-11-23 13:33:19,321 DEBUG o.a.h.wire [Wire.java:72]  << "[\r][\n]"
+2023-11-23 13:33:19,323 DEBUG o.a.h.i.c.DefaultClientConnection [DefaultClientConnection.java:253] Receiving response: HTTP/1.1 200 
+2023-11-23 13:33:19,323 DEBUG o.a.h.headers [DefaultClientConnection.java:256] << HTTP/1.1 200 
+2023-11-23 13:33:19,324 DEBUG o.a.h.headers [DefaultClientConnection.java:259] << Server: Cowboy
+2023-11-23 13:33:19,324 DEBUG o.a.h.headers [DefaultClientConnection.java:259] << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700739198&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=DzpB58Xx0uP0dVqO5Fy6HiuwCail6pqmjCeCGcH79ts%3D"}]}
+2023-11-23 13:33:19,325 DEBUG o.a.h.headers [DefaultClientConnection.java:259] << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700739198&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=DzpB58Xx0uP0dVqO5Fy6HiuwCail6pqmjCeCGcH79ts%3D
+2023-11-23 13:33:19,326 DEBUG o.a.h.headers [DefaultClientConnection.java:259] << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+2023-11-23 13:33:19,327 DEBUG o.a.h.headers [DefaultClientConnection.java:259] << Connection: keep-alive
+2023-11-23 13:33:19,327 DEBUG o.a.h.headers [DefaultClientConnection.java:259] << Vary: Origin
+2023-11-23 13:33:19,328 DEBUG o.a.h.headers [DefaultClientConnection.java:259] << Vary: Access-Control-Request-Method
+2023-11-23 13:33:19,329 DEBUG o.a.h.headers [DefaultClientConnection.java:259] << Vary: Access-Control-Request-Headers
+2023-11-23 13:33:19,329 DEBUG o.a.h.headers [DefaultClientConnection.java:259] << Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoicXdlcnR5QHF3ZXIudHkiLCJpc3MiOiJSZWd1bGFpdCIsImV4cCI6MTcwMTMzOTE5OCwiaWF0IjoxNzAwNzM5MTk4fQ.4AljThDVLvSerXKZXfFNIRTMEBtUOf8VbK-DkI2uq2E
+2023-11-23 13:33:19,330 DEBUG o.a.h.headers [DefaultClientConnection.java:259] << X-Content-Type-Options: nosniff
+2023-11-23 13:33:19,331 DEBUG o.a.h.headers [DefaultClientConnection.java:259] << X-Xss-Protection: 1; mode=block
+2023-11-23 13:33:19,331 DEBUG o.a.h.headers [DefaultClientConnection.java:259] << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2023-11-23 13:33:19,332 DEBUG o.a.h.headers [DefaultClientConnection.java:259] << Pragma: no-cache
+2023-11-23 13:33:19,332 DEBUG o.a.h.headers [DefaultClientConnection.java:259] << Expires: 0
+2023-11-23 13:33:19,334 DEBUG o.a.h.headers [DefaultClientConnection.java:259] << Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+2023-11-23 13:33:19,335 DEBUG o.a.h.headers [DefaultClientConnection.java:259] << X-Frame-Options: DENY
+2023-11-23 13:33:19,335 DEBUG o.a.h.headers [DefaultClientConnection.java:259] << Content-Type: application/json;charset=ISO-8859-1
+2023-11-23 13:33:19,336 DEBUG o.a.h.headers [DefaultClientConnection.java:259] << Content-Length: 207
+2023-11-23 13:33:19,336 DEBUG o.a.h.headers [DefaultClientConnection.java:259] << Date: Thu, 23 Nov 2023 11:33:18 GMT
+2023-11-23 13:33:19,336 DEBUG o.a.h.headers [DefaultClientConnection.java:259] << Via: 1.1 vegur
+2023-11-23 13:33:19,342 DEBUG o.a.h.i.c.DefaultHttpClient [DefaultRequestDirector.java:510] Connection can be kept alive indefinitely
+2023-11-23 13:33:19,373 DEBUG c.j.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder [HTTPBuilder.java:543] Parsing response as: application/json;charset=ISO-8859-1
+2023-11-23 13:33:19,374 DEBUG c.j.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder [HTTPBuilder.java:546] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-11-23 13:33:19,464 DEBUG o.a.h.wire [Wire.java:86]  << "{"token":"eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoicXdlcnR5QHF3ZXIudHkiLCJpc3MiOiJSZWd1bGFpdCIsImV4cCI6MTcwMTMzOTE5OCwiaWF0IjoxNzAwNzM5MTk4fQ.4AljThDVLvSerXKZXfFNIRTMEBtUOf8VbK-DkI2uq2E"}"
+2023-11-23 13:33:19,473 DEBUG o.a.h.i.c.BasicClientConnectionManager [BasicClientConnectionManager.java:198] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@37b72ea
+2023-11-23 13:33:19,474 DEBUG o.a.h.i.c.BasicClientConnectionManager [BasicClientConnectionManager.java:223] Connection can be kept alive indefinitely

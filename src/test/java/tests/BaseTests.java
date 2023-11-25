@@ -1,11 +1,14 @@
 package tests;
 
+import api.ContactsService;
+import api.UserApi;
 import dto.UserDtoLombok;
 import manager.ApplicationManager;
 import manager.TestNGListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.*;
+import org.testng.asserts.SoftAssert;
 import utils.RandomUtils;
 
 import java.lang.reflect.Method;
@@ -21,12 +24,18 @@ public class BaseTests {
     static ApplicationManager app = new ApplicationManager();
 
     UserDtoLombok user = UserDtoLombok.builder()
-            .username("qwerty@qwer.ty")
-            .password("Qwerty!1")
+            .username("testqa20@gmail.com")
+            .password("123456Aa$")
             .build();
+
+    UserApi userApi = new UserApi();
+    ContactsService contactsService = new ContactsService();
+    String token = "";
+    SoftAssert softAssert = new SoftAssert();
 
     @BeforeSuite(alwaysRun = true)
     public void setup() {
+        token = userApi.getTokenFromLoginResponse(user);
         app.init();
     }
 

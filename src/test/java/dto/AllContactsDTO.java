@@ -9,7 +9,7 @@ import lombok.ToString;
 @ToString
 @Builder
 public class AllContactsDTO {
-    NewContactDto[] contacts;
+    ContactDto[] contacts;
 }
 
 
