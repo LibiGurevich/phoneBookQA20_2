@@ -1,6 +1,11 @@
 package tests;
 
 import dto.ContactDto;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -42,7 +47,8 @@ public class DeleteOneContactTestWithApi extends BaseTests{
         app.getContactHelper().removeActiveContact();
         app.getContactHelper().navigateToContactPage();
         System.out.println(phone);
-        Thread.sleep(5000);
+       // Thread.sleep(5000);
+        app.getContactHelper().navigateToContactPage();
         softAssert.assertFalse(app.getContactHelper().validateContactCreated(phone));
         softAssert.assertAll();
     }

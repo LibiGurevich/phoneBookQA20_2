@@ -8,9 +8,9 @@ public class AllContactsTests extends BaseRA{
         softAssert.assertEquals(contactsService.getStatusCodeResponseAddNewContact(createNewContact(), token), 200);
         String id = contactsService.getIdResponseAddNewContact(createNewContact(), token);
         System.out.println("id created contact " + id);
-        Thread.sleep(3000);
+       // Thread.sleep(3000);
         softAssert.assertEquals(contactsService.getStatusCodeResponseGetAllContacts(token), 200);
-        //softAssert.assertTrue(contactsService.isIdInTheAllContactResponse(token, id));
+        softAssert.assertTrue(contactsService.isIdInTheAllContactResponse(token, id));
         softAssert.assertAll();
     }
 }
